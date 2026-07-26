@@ -1,0 +1,19 @@
+Options -Indexes
+Options +FollowSymLinks
+Options -Multiviews
+RewriteEngine On
+RewriteBase /AnythingLK/
+
+# Block direct access
+<FilesMatch "^(config\.ini|db_connect\.php|\.env)$">
+    Require all denied
+</FilesMatch>
+
+# Admin routes
+RewriteRule ^admin/?$ admin/index.php [L,QSA]
+RewriteRule ^admin/(.*)$ admin/index.php [L,QSA]
+
+# Front controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L,QSA]
