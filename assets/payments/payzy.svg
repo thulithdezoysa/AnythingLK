@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="Payzy">
+  <defs>
+    <linearGradient id="pzGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c3cf7"/>
+      <stop offset="100%" style="stop-color:#d63af2"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="80" rx="10" fill="#0f0b1e"/>
+  <!-- P icon badge -->
+  <rect x="14" y="18" width="44" height="44" rx="10" fill="url(#pzGrad)"/>
+  <text x="36" y="49" text-anchor="middle" font-size="28" font-weight="900" fill="#fff" font-family="Arial Black,Arial,sans-serif">P</text>
+  <!-- PAYZY wordmark -->
+  <text x="72" y="46" font-size="26" font-weight="bold" fill="#fff" font-family="Arial Black,Arial,sans-serif" letter-spacing="1">payzy</text>
+  <!-- Secure badge -->
+  <rect x="72" y="54" width="74" height="12" rx="3" fill="#6c3cf7" opacity=".35"/>
+  <text x="109" y="63" text-anchor="middle" font-size="7.5" fill="#c8a0f8" font-family="Arial,sans-serif" letter-spacing="1">SECURE PAY</text>
+</svg>

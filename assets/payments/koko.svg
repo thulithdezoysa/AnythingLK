@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="KOKO">
+  <rect width="200" height="80" rx="10" fill="#0a0a0a"/>
+  <!-- KOKO wordmark style -->
+  <text x="100" y="50" text-anchor="middle" font-size="38" font-weight="900" fill="#fff" font-family="Arial Black,Arial,sans-serif" letter-spacing="-1">KOKO</text>
+  <!-- Accent dot -->
+  <circle cx="100" cy="62" r="3" fill="#ff3b5c"/>
+  <!-- Tagline -->
+  <text x="100" y="73" text-anchor="middle" font-size="8" fill="#666" font-family="Arial,sans-serif" letter-spacing="2">BUY NOW · PAY LATER</text>
+</svg>

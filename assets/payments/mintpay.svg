@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="Mintpay">
+  <rect width="200" height="80" rx="10" fill="#f0faf5"/>
+  <!-- Leaf/mint icon -->
+  <circle cx="30" cy="40" r="20" fill="#00b37d"/>
+  <path d="M22 44 Q30 24 38 44 Q30 52 22 44z" fill="#fff" opacity=".9"/>
+  <circle cx="30" cy="44" r="4" fill="#00b37d"/>
+  <!-- MINTPAY text -->
+  <text x="60" y="37" font-size="20" font-weight="bold" fill="#00b37d" font-family="Arial,sans-serif" letter-spacing=".5">mint</text>
+  <text x="60" y="58" font-size="20" font-weight="bold" fill="#1a3a2a" font-family="Arial,sans-serif" letter-spacing=".5">pay</text>
+  <!-- Tagline -->
+  <text x="130" y="46" font-size="8" fill="#5a9a7a" font-family="Arial,sans-serif">3 easy</text>
+  <text x="130" y="57" font-size="8" fill="#5a9a7a" font-family="Arial,sans-serif">payments</text>
+</svg>
